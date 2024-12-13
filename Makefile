@@ -356,7 +356,7 @@ endef
 
 CH_DIR = charts
 DIR = spark-operator-chart
-VERSION = 2.0.2-d1
+VERSION = ${TAG}
 CHART_NAME = spark-operator
 PACKAGED_CHART = ${CHART_NAME}-${VERSION}.tgz
 
